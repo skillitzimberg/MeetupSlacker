@@ -13,6 +13,8 @@ type Event struct {
 	Name string
 	Group Group
 	Link string
+	Date string `json:"local_date"`
+	Time string `json:"local_time"`
 	Venue Venue
 }
 
